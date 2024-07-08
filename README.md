@@ -5,9 +5,15 @@ Un simple jeu de Pierre-Papier-Ciseaux en utilisant HTML, CSS et JavaScript, ave
 ## Instructions
 
 1. Clonez ce dépôt ou téléchargez les fichiers.
-
+    
+    SSH
     ```bash
-    git clone https://github.com/votre-utilisateur/pierre-papier-ciseaux.git
+    git clone git@github.com:Shinzoku/Jan-ken-pon.git
+    ```
+    
+    HTML
+    ```bash
+    git clone https://github.com/Shinzoku/pierre-papier-ciseaux.git
     ```
 
 2. Ouvrez le fichier `index.html` dans votre navigateur pour jouer au jeu.
@@ -51,4 +57,4 @@ Lorsque vous ouvrez le fichier `index.html`, vous verrez trois boutons représen
 
 ## Licence
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence MIT - voir le fichier [LICENSE](https://choosealicense.com/licenses/mit/) pour plus de détails.
