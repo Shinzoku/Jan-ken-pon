@@ -6,15 +6,25 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: rgb(114, 114, 114);
+    background-color: rgb(216, 203, 168);
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(109, 201, 17);
 }
 
 #game {
+    width: 50%;
     text-align: center;
+    border: 5px solid rgb(61, 61, 61);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 10px 15px;
+    background-color: rgb(119, 118, 118);
 }
 
 #options {
-    margin-top: 20px;
+    margin: 30px;
 }
 
 button {
@@ -32,6 +42,22 @@ button:hover {
 }
 
 #result {
-    margin-top: 20px;
-    font-size: 18px;
+    margin: 20px;
+    height: 400px;
+    font-size: 5em;
+}
+
+#player1, #player2 {
+    font-size: 2.5em;
+    padding: 90px;
+}
+
+.egal {
+    color: rgb(0, 0, 0);
+}
+.win {
+    color: rgb(0, 255, 0);
+}
+.lose {
+    color: rgb(255, 0, 0);
 }
